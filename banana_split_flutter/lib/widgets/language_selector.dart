@@ -13,6 +13,7 @@ class LanguageSelectorButton extends StatelessWidget {
     (locale: Locale('ka'), flag: '🇬🇪', name: 'ქართული'),
     (locale: Locale('uk'), flag: '🇺🇦', name: 'Українська'),
     (locale: Locale('pl'), flag: '🇵🇱', name: 'Polski'),
+    (locale: Locale('zh'), flag: '🇨🇳', name: '中文'),
   ];
 
   static String _flagForLocale(Locale locale) {
